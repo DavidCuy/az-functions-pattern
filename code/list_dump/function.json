@@ -1,0 +1,21 @@
+{
+    "scriptFile": "../src/routes/api/v1/DumpRoutes.py",
+    "entryPoint": "route_index",
+    "bindings": [{
+            "authLevel": "anonymous",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "get"
+            ],
+            "route": "dump"
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "$return"
+        }
+    ],
+    "disabled": false
+}

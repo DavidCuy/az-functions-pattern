@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "APP_NAME": "Azure functions Pattern",
+        "APP_URL": "https://localhost/dev",
+        "DB_HOST": "<host>",
+        "DB_USER": "<user>",
+        "DB_PWD": "<password>",
+        "DB_NAME": "<name>",
+        "DB_PORT": "<port>",
+        "DB_ENGINE": "<db+engine>",
+        "DB_DRIVER": "<driver>",
+        "FUNCTIONS_WORKER_RUNTIME": "python"
+    }
+}

@@ -1,0 +1,10 @@
+azure-common==1.1.27
+azure-functions==1.8.0
+greenlet==1.1.2
+importlib-metadata==4.10.0
+importlib-resources==5.4.0
+Mako==1.1.6
+MarkupSafe==2.0.1
+pyodbc==4.0.30
+SQLAlchemy==1.4.25
+zipp==3.7.0

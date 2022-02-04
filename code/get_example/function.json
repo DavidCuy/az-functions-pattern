@@ -1,0 +1,21 @@
+{
+    "scriptFile": "../src/routes/api/v1/ExampleRoutes.py",
+    "entryPoint": "route_find",
+    "bindings": [{
+            "authLevel": "anonymous",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "get"
+            ],
+            "route": "example/{id}"
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "$return"
+        }
+    ],
+    "disabled": false
+}
