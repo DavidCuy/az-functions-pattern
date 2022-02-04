@@ -44,5 +44,5 @@ source venv/bin/activate
 
 ## Documentacion de API
 
-De igual manera se deja un [template de la API en OpenAPI3](documentation/api/api_gateway.yml), para integrarse facilmente con swagger o postman
+De igual manera se deja un [template de la API en OpenAPI3](documentation/api/api_gateway.yaml), para integrarse facilmente con swagger o postman
 
